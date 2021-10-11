@@ -11,7 +11,7 @@ GPIO.setup(14, GPIO.OUT)
 # GPIO14にHighを出力
 GPIO.output(14, GPIO.HIGH)
 
-# 10msスリープ
-time.sleep(10)
+# 3sスリープ
+time.sleep(3)
 
 GPIO.cleanup()
